@@ -70,10 +70,6 @@ const allLastNames = characters.map((character) => {
 const allFirstLetter = characters.map((character) => {
   return character.name.split("")[0];
 });
-// Get all last name of last letter
-const allLastLetter = characters.map((character) => {
-  return character.name.split("");
-});
 
 // ============= SORT
 // Sort by name
@@ -81,8 +77,6 @@ const getName = characters.sort((a, b) => {
   if (a.name < b.name) return -1;
   //   return a.name.localeCompare(b.name);
 });
-console.log(getName);
-
 // Sort by mass
 const getMass = characters.sort((a, b) => a.mass - b.mass);
 // Sort by height
