@@ -11,11 +11,3 @@
 ## sort
 
 1. .sort contain `2 important` paranthesis are `(asecending , descending)` and will only change its `orginal array`
-
-## forEach
-
-1. .forEach only change its `original array`
-
-## every
-
-1. .every is checking does the `condition meet the requirement` if or else meet the requirement it will show either `true or false`.
